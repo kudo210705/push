@@ -2,17 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+<title>Push通知テスト</title>
+<script src="https://sdk.push7.jp/v2/p7sdk.js"></script>
+<script>
+p7.init("c90f84db5d9241b896295a9cca030361",{
+  mode:"native",
+  subscribe:"auto"
+});
+</script>
 </head>
 <body>
 <main>
-<h1>GitHub Pages のサンプルです</h1>
-<a href="http://www.tam-tam.co.jp/tipsnote/"><button>TipsNote に戻る</button></a>
-</main>
-
-<script>
-console.log("GitHub Pages Sample");
-</script>
+<h1>Push通知のテスト</h1>
 </body>
 </html>
